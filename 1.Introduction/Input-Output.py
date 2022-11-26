@@ -6,11 +6,12 @@
 # Scenario: # Enter scenario name here
 # Enter steps here
 import sys
-# 3
+# 5
 # paris tokyo 9471
 # paris new-york 5545
 # new-york singapore 15344
-
+# new-york Dhaka 5545
+# Dhaka new-york 5648
 #Read a graph Input
 from collections import defaultdict
 edge = int(sys.stdin.readline())
