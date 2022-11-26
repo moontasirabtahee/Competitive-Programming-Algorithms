@@ -9,7 +9,6 @@
 
 import time
 def fibo(n):
-
     if n<=1:
         return n
     return fibo(n-1)+fibo(n-2)
@@ -23,10 +22,10 @@ def fiboCache(n):
     return fiboCache(n-1)+fiboCache(n-2)
 
 st = time.time()
-print(fibo(100))
+print(fibo(32))
 end = time.time()
 print(f"Without Cache time:{end-st}")
 st = time.time()
-print(fiboCache(100))
+print(fiboCache(300))
 end = time.time()
 print(f"With Cache time:{end-st}")
