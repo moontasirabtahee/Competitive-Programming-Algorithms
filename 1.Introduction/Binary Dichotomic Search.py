@@ -4,7 +4,7 @@
 # Enter feature description here
 
 # Scenario: # Enter scenario name here
-# Enter steps here
+# Enter steps herea
 
 def binarySearch(array,value,low,high):
     array = sorted(array)
