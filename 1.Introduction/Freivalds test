@@ -1,0 +1,19 @@
+Freivald’s Algorithm
+A,B,C are 3 Matrix
+Generate an n × 1 random 0/1 vector r⃗.
+Compute P⃗ = A × (Br)⃗ – Cr⃗.
+Return true if P⃗ = ( 0, 0, …, 0 )T, return false otherwise.
+
+Freivalds’ algorithm is a probabilistic randomized algorithm that works
+in time O(n2) with high probability. In O(kn2) time the algorithm can
+verify a matrix product with probability of failure less than 2-k.
+Since the output is not always correct, it is a Monte Carlo randomized
+algorithm.
+
+Randomized Algorithms:
+Randomized algorithms are classified in two categories.
+
+Las Vegas: These algorithms always produce correct or optimum result
+Monte Carlo: Produce correct or optimum result with some probability.
+These algorithms have deterministic running time and it is generally
+easier to find out worst case time complexity.
